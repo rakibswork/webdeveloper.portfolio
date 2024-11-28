@@ -205,3 +205,56 @@ nav > ul {
 
 
 }
+
+/*resume section styles*/
+
+
+.resume-column-title{
+
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container{
+
+    display: flex;
+    gap: 70px;
+}
+
+.resume-container hr{
+
+    margin: 30px;
+}
+
+.resume-title{
+
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-institute{
+
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.resume-info{
+
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+/*download cv button*/
+
+.download-cv{
+
+    text-align: center;
+}
