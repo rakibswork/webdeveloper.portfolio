@@ -36,6 +36,7 @@ nav{
     font-weight: 800; 
     font-size: 45px;
     color: #181818;
+    padding-left:146px;
 
  
 }
@@ -63,9 +64,9 @@ nav > ul {
 .header{
 
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right ;
+    background-position: bottom right , top left;
 }
 
 .banner{
@@ -110,6 +111,7 @@ nav > ul {
 
 
  }
+
 
  /*main section styles*/
 
@@ -257,4 +259,54 @@ nav > ul {
 .download-cv{
 
     text-align: center;
+    margin-top: 50px;
+}
+
+/*footer styles*/
+
+footer{
+
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    padding: 130px 200px ;
+    margin-top: 100px;
+    gap: 110px;
+}
+
+.social-links a {
+
+    margin-right: 25px;
+}
+.footer-column{
+
+    width: 50%;
+
+
+}
+
+.footer-title{
+
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-info{
+
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact  input[type="text"], .contact input[type="email"], textarea {
+
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px ;
+    color: rgb(117, 117, 117);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: 0px;
+    width: 100%;
+
 }
